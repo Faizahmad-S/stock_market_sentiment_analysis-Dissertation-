@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local outputs (regeneratable)
+results/*.csv
+results/*.png
+!results/.gitkeep
+
+images/*.png
+!images/.gitkeep
+
+# Scraper timestamps
+timestamp.txt
+
+# Coverage / testing
+.coverage
+.pytest_cache/
+htmlcov/
