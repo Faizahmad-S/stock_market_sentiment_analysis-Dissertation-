@@ -1,0 +1,11 @@
+VADER Accuracy: 55.04%
+
+              precision    recall  f1-score   support
+
+    negative       0.43      0.26      0.32       604
+     neutral       0.70      0.56      0.62      2879
+    positive       0.41      0.66      0.51      1363
+
+    accuracy                           0.55      4846
+   macro avg       0.51      0.49      0.48      4846
+weighted avg       0.59      0.55      0.55      4846
